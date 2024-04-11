@@ -55,7 +55,7 @@ import tkinter as tk
 import queue
 # pipeline = "rtspsrc location=\"rtsp://login:password@host:port/\" ! rtph264depay ! h264parse ! omxh264dec ! nvvidconv ! video/x-raw, format=(string)BGRx! videoconvert ! appsink"
 # capture = cv2.VideoCapture(pipeline, cv2.CAP_GSTREAMER)
-pipline = "rtsp://10.181.184.53:8554/cam"
+pipline = "rtsp://xxxxxxxxx/cam"
 # while capture.isOpened():
 #     res, frame = capture.read()
 #     cv2.imshow("Video", frame)
@@ -265,7 +265,7 @@ def run(
 def parse_opt():
     parser = argparse.ArgumentParser()
     # parser.add_argument('--weights', nargs='+', type=str, default=ROOT / 'yolov5m_Objects365.pt', help='model path or triton URL')
-    parser.add_argument('--source', type=str, default='/home/cll/work/code/project/fire-smoke-detect-yolov4/yolov5/dataset/ForestFire1.avi', help='file/dir/URL/glob/screen/0(webcam)')
+    parser.add_argument('--source', type=str, default='fire-smoke-detect-yolov4/yolov5/dataset/ForestFire1.avi', help='file/dir/URL/glob/screen/0(webcam)')
     parser.add_argument('--data', type=str, default=ROOT / 'data/coco128.yaml', help='(optional) dataset.yaml path')
     parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[640], help='inference size h,w')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='confidence threshold')
