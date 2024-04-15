@@ -4,7 +4,5 @@
 
 基于tk实现控制界面。一个线程单独监听点击事件，另一个线程执行检测程序。初始时输入初始模型与初始检测的物品类别，程序运行后可依据实时视频中显示内容在界面中自行选择切换模型以及检测类别。从而实现多模式的切换。fire: 火灾检测模型。
 
-![image](https://github.com/Lily-Le/ObjDetectSelect/assets/21274476/ae455253-75c3-4109-a60a-615fb5d37895)
-
-
+![image](https://github.com/Lily-Le/ObjDetectSelect/assets/21274476/da6a3408-f0fc-4d67-8597-c3b5b2a3f4f5)
 
